@@ -1,0 +1,271 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.red{
+    background-color: red;
+}
+.white{
+    color: white;
+    font-weight: bold;
+}
+.font-red{
+    color: red;
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-left{
+    height: 80vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-right{
+    height:80vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-right img{
+    height: 40vh;
+    width: 25vw;
+}
+.sub-btn a{
+    text-decoration: none;
+    color: white;
+}
+.sub-btn{
+    padding: 9px;
+    background-color: red;
+    border-radius: 6px;
+    border: white;
+}
+.font-pacifio{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.sub-btn:hover{
+    background-color:maroon;
+    
+    transition: all 0.1s;
+}
+.testimonial{
+    height: 70vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+.box{
+    background-color: white;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    position: relative;
+    width: 20vw;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dummy{
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+.head{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+input{
+    width: 30vw;
+    border-radius: 8px;
+}
+textarea{
+    width: 30vw;
+    border-radius: 8px;
+}
+.form-btn{
+    padding: 9px;
+    background-color: red;
+    border-radius: 6px;
+    border: white;
+    color: white;
+    margin-left: 13vw;
+    margin-top: 1vh;
+}
+.end{
+    height: 60vh;
+    background-color: red;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-box{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.white a{
+    text-decoration: none;
+    color: white;
+}
+.white a:hover{
+    color: black;
+}
+.end-box form input{
+    width: 15vw;
+}
+.foot-btn:hover{
+border-radius: 8px;
+}
+.login-main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-main-left{
+    height: 90vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-main-right{
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-main-right img{
+    height: 50vh;
+    width: 30vw;
+}
+.login-btn{
+    padding: 8px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    margin-top: 2vh;
+    margin-left: 12vw;
+    margin-bottom: 2vh;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.login-btn:hover{
+ 
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+
+.back{
+    background-color: rgb(255, 67, 67);
+    border-radius: 20px;
+    border: 3px solid red;
+    height:60vh;
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+.p-main-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+}
+.p-main-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 80vh;
+}
+.p-main-right img{
+    height: 45vh;
+    width: 45vw;
+}
+.finance-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-color: red;
+}
+.f-rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.finance-input button{
+    color: red;
+    background-color: white;
+    margin-top: 3vh;
+    margin-left: 6vw;
+}
+.main-graph{
+    height: 80vh;
+    margin-top: 10vh;
+    width: 100vw;
+}
+.finance-input button a{
+    color: red;
+}
+.f-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-top: 5vh;
+    flex-direction: column;
+}
